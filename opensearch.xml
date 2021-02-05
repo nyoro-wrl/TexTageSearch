@@ -4,5 +4,4 @@
 <InputEncoding>UTF-8</InputEncoding>
 <Image height="16" width="16">https://textage.cc/favicon.ico</Image>
 <Url type="text/html" method="GET" template="https://nyoro-wrl.github.io/TexTageSearch/?q={searchTerms}"/>
-<moz:SearchForm>https://textage.cc/score/index.html?a011B000</moz:SearchForm>
 </OpenSearchDescription>
