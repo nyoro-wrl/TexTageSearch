@@ -2,7 +2,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
 <ShortName>TexTage</ShortName>
 
-<InputEncoding>US-ASCII</InputEncoding>
+<InputEncoding>ASCII</InputEncoding>
 <Image height="16" width="16">https://textage.cc/favicon.ico</Image>
 <Url type="text/html" method="GET" template="https://textage.cc/score/index.html?r211B000_{searchTerms}"/>
 
