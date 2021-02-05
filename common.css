@@ -9,7 +9,7 @@ body {
 }
 
 body.is-show {
-    transition-delay: 0.3s;
+    transition-delay: 0s;
     opacity: 1;
     visibility: visible;
 }
