@@ -1,12 +1,12 @@
-// クエリパラメータ
-let queryParams = {};
+let query = {};
+const TEXTAGE_URL = "https://textage.cc/score/index.html?r211B000_";
 
 // 初期処理
 window.onload = function() {
     queryImport();
 
-    if (queryParams['q']) {
-        textageSearch(queryParams['q']);
+    if (query['q']) {
+        textageSearch(query['q']);
     }
 }
 
@@ -19,7 +19,7 @@ function queryImport() {
             let element = params[i].split('=');
             let name = decodeURIComponent(element[0]);
             let value = decodeURIComponent(element[1]);
-            queryParams[name] = value;
+            query[name] = value;
         }
     }
 }
