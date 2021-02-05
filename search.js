@@ -1,11 +1,12 @@
 let query = {};
-const TEXTAGE_URL = "https://textage.cc/score/index.html?r211B000_";
 
 // 初期処理
 window.addEventListener('DOMContentLoaded', function() {
     queryImport();
     if (query['q']) {
         textageSearch(query['q']);
+    } else {
+        location.replace("https://textage.cc/score/index.html?a011B000");
     }
 })
 
@@ -36,6 +37,6 @@ function textageSearch(text) {
         }
 		asciiText += refcrd;
 	}
-    let url = TEXTAGE_URL + asciiText;
+    let url = "https://textage.cc/score/index.html?r211B000_" + asciiText;
     location.replace(url);
 }
