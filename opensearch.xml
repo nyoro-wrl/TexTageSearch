@@ -1,8 +1,7 @@
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
 <ShortName>TexTage</ShortName>
-<Description>Search TexTage</Description>
 <InputEncoding>UTF-8</InputEncoding>
-<Image height="16" type="image/x-icon" width="16">https://textage.cc/favicon.ico</Image>
+<Image height="16" width="16">https://textage.cc/favicon.ico</Image>
 <Url method="get" template="https://nyoro-wrl.github.io/TexTageSearch/?q={searchTerms}" type="text/html"/>
-<moz:SearchForm>https://nyoro-wrl.github.io/TexTageSearch/</moz:SearchForm>
 </OpenSearchDescription>
