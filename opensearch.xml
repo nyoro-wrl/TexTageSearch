@@ -1,6 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
 <ShortName>TexTage</ShortName>
+
 <InputEncoding>UTF-8</InputEncoding>
 <Image height="16" width="16">https://textage.cc/favicon.ico</Image>
-<Url method="get" template="https://nyoro-wrl.github.io/TexTageSearch/?q={searchTerms}" type="text/html"/>
+<Url type="text/html" method="GET" template="https://nyoro-wrl.github.io/TexTageSearch/?q={searchTerms}"/>
+
 </OpenSearchDescription>
