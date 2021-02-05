@@ -35,5 +35,5 @@ function textageSearch(text) {
 		asciiText += refcrd;
 	}
     let url = TEXTAGE_URL + asciiText;
-    window.open(url);
+    location.href = url;
 }
