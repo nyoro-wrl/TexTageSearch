@@ -6,6 +6,8 @@ window.addEventListener('DOMContentLoaded', function() {
     queryImport();
     if (query['q']) {
         textageSearch(query['q']);
+    } else {
+        document.body.classList.toggle('is-show')
     }
 })
 
