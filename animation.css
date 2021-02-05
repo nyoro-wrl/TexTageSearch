@@ -1,8 +1,10 @@
 body {
-    transition: opacity 1s;
+    transition: opacity 1s, visibility 1s;
     opacity: 0;
+    visibility: hidden;
 }
 
 body.is-show {
     opacity: 1;
+    visibility: visible;
 }
