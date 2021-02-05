@@ -1,10 +1,11 @@
 body {
-    transition: opacity 1s, visibility 1s;
+    transition: opacity 1s, visibility 0s ease 1s;
     opacity: 0;
     visibility: hidden;
 }
 
 body.is-show {
+    transition-delay: 0s;
     opacity: 1;
     visibility: visible;
 }
