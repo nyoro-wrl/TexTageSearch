@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
     
     transition: opacity 1s, visibility 0s ease 1s;
+    transition-delay: 1s;
     opacity: 0;
     visibility: hidden;
 }
