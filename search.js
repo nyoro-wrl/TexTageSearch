@@ -5,8 +5,8 @@ let queryParams = {};
 window.onload = function() {
     queryImport();
 
-    if (queryParams[q]) {
-        textageSearch(queryParams[q]);
+    if (queryParams['q']) {
+        textageSearch(queryParams['q']);
     }
 }
 
