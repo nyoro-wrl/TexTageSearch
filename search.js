@@ -2,13 +2,12 @@ let query = {};
 const TEXTAGE_URL = "https://textage.cc/score/index.html?r211B000_";
 
 // 初期処理
-window.onload = function() {
+window.addEventListener('DOMContentLoaded', function() {
     queryImport();
-
     if (query['q']) {
         textageSearch(query['q']);
     }
-}
+})
 
 function queryImport() {
     let url = location.search;
