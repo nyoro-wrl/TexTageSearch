@@ -24,8 +24,7 @@ function queryImport() {
     }
 }
 
-function textageSearch() {
-    let text = textageTextbox.value;
+function textageSearch(text) {
     if (text == "") return;
     let asciiText = "";
     for (let i = 0; i < text.length; i++) {
