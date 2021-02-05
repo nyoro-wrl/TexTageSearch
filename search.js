@@ -36,5 +36,5 @@ function textageSearch(text) {
 		asciiText += refcrd;
 	}
     let url = TEXTAGE_URL + asciiText;
-    location.href = url;
+    location.replace(url);
 }
