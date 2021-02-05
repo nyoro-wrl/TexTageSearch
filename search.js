@@ -31,6 +31,9 @@ function textageSearch(text) {
 		while (refcrd.length<4) {
             refcrd = "0" + refcrd;
         }
+        if (refcrd == "002b") {
+            refcrd = "0020";
+        }
 		asciiText += refcrd;
 	}
     let url = TEXTAGE_URL + asciiText;
