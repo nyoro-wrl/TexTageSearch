@@ -7,7 +7,8 @@ window.addEventListener('DOMContentLoaded', function() {
     if (query['q']) {
         textageSearch(query['q']);
     } else {
-        document.body.classList.toggle('is-show')
+        document.body.style.display = "inline";
+        document.body.classList.toggle('is-show');
     }
 })
 
